@@ -47,6 +47,6 @@ Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/batbayar-bold/ds-projects.git
    c567356..5af4b00  main -> main
 ```
-
+7. git mv
 
 
