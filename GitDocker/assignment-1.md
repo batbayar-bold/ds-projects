@@ -31,10 +31,21 @@ Reinitialized existing Git repository in /Users/batbayarbold/ds-projects/.git/
 ```
 5. git commit - Record changes to the repository
 ```
-% git commit -m "first 4 git commands"
-[main c567356] first 4 git commands
- 1 file changed, 3 insertions(+)
- create mode 100644 GitDocker/assignment-1.md
+% git commit -m "first 5 git commands"
+[main 5af4b00] first 5 git commands
+ 1 file changed, 39 insertions(+), 1 deletion(-)
+```
+6. git push - Update remote refs along with associated objects
+```
+% git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 916 bytes | 916.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/batbayar-bold/ds-projects.git
+   c567356..5af4b00  main -> main
 ```
 
 
