@@ -1,6 +1,6 @@
 # Git and Github 
 
-### Task 1 
+## Task 1 
 Demonstrate minimum 15 basic Git command with explanation and screenshot.
 
 1. git add - Add file contents to the index
@@ -47,6 +47,44 @@ Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/batbayar-bold/ds-projects.git
    c567356..5af4b00  main -> main
 ```
-7. git mv
+7. git branch - List, create, or delete branches
+8. git switch - Switch branches
+```
+% git branch 
+* main
+% git branch feature
+% git switch feature
+Switched to branch 'feature'
+```
+9. git restore - Restore working tree files
+10. git rm - Remove files from the working tree and from the index
+11. git diff - Show changes between commits, commit and working tree, etc
+12. git grep - Print lines matching a pattern
+13. git rebase - Reapply commits on top of another base tip
+14. git reset - Reset current HEAD to the specified state
+15. git pull - Fetch from and integrate with another repository or a local branch
 
 
+## Task 2 
+Consider that your want to start an open-source project in your organization. Perform all the standard operation to create a repository with minimal permision for all the users. It should contain.
+1. Proper open source structure 
+2. Proper Readme
+3. Add 2 collaborator 
+4. Host GitHub Pages using settings (Designed to host your personal, organization, or project pages from a GitHub repository)
+
+```
+https://batbayar-bold.github.io/open-source-project/
+```
+
+## Task 3 
+1. Create a Issue in your github repository.
+2. Raise a pull request.
+3. Merge A pull request.
+4. Reject a pull request with proper comments.
+5. Add a Dependabot alerts in your github.(for above cases)
+6. Stash changes
+7. Create a release your package
+8. Setup a Projects Board for your project.
+```
+https://batbayar-bold.github.io/open-source-project/
+```
