@@ -93,43 +93,6 @@ b162c19c7e1a: Mounted from library/python
 7346d8f0d212: Mounted from library/python 
 testing: digest: sha256:4a7f6ac5470ac2375ac01282890417213229908ac5d527fdfd92892b5ca99567 size: 3259
 ```
-
-
-
-## Assignment 2:
-Run Hello World Docker Image Locally.
-```
-% docker pull hello-world 
-Using default tag: latest
-latest: Pulling from library/hello-world
-7050e35b49f5: Pull complete 
-Digest: sha256:18a657d0cc1c7d0678a3fbea8b7eb4918bba25968d3e1b0adebfa71caddbc346
-Status: Downloaded newer image for hello-world:latest
-docker.io/library/hello-world:latest
-
-% docker run hello-world
-
-Hello from Docker!
-This message shows that your installation appears to be working correctly.
-
-To generate this message, Docker took the following steps:
- 1. The Docker client contacted the Docker daemon.
- 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
-    (arm64v8)
- 3. The Docker daemon created a new container from that image which runs the
-    executable that produces the output you are currently reading.
- 4. The Docker daemon streamed that output to the Docker client, which sent it
-    to your terminal.
-
-To try something more ambitious, you can run an Ubuntu container with:
- $ docker run -it ubuntu bash
-
-Share images, automate workflows, and more with a free Docker ID:
- https://hub.docker.com/
-
-For more examples and ideas, visit:
- https://docs.docker.com/get-started/
- ```
 10. docker ps - Show a list of running containers
 ```
 % docker ps 
@@ -177,6 +140,40 @@ INFO:     Finished server process [1]
 % docker rename mycontainer1 mycontainer2
 ```
 
+## Assignment 2:
+Run Hello World Docker Image Locally.
+```
+% docker pull hello-world 
+Using default tag: latest
+latest: Pulling from library/hello-world
+7050e35b49f5: Pull complete 
+Digest: sha256:18a657d0cc1c7d0678a3fbea8b7eb4918bba25968d3e1b0adebfa71caddbc346
+Status: Downloaded newer image for hello-world:latest
+docker.io/library/hello-world:latest
+
+% docker run hello-world
+
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (arm64v8)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+ ```
 
 ## Assignment 3:
 1. Create a hello world fastapi application.
